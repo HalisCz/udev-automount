@@ -7,7 +7,7 @@ Popis
  *   Automaticky připojí flashku nebo paměťovou kartu s libovolným souborovým systémem (ext, vfat, ntfs,…)
  *   Připojí do /media
  *   Umožnit rw pro non-root uživatele
- *   Automaticky odpojí a smaže adresář po fyzickém odpojení (__doporučuje se před fyzickém odpojení provést příkaz příkaz sync který zapíše změny z cache na disky__)
+ *   Automaticky odpojí a smaže adresář po fyzickém odpojení (__doporučuje se před fyzickém odpojení provést příkaz příkaz *<code>sync</code>* který zapíše změny z cache na disky__)
 
 Instalace
 ---------
