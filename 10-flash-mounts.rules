@@ -5,7 +5,7 @@
 #######################################
 
 # start at sdb to ignore the system hard drive
-KERNEL!="(sd[b-z])", GOTO="exit"
+KERNEL!="sd[b-z]*", GOTO="exit"
 ACTION=="add", PROGRAM!="/sbin/blkid %N", GOTO="exit"
 
 # import some useful filesystem info as variables
