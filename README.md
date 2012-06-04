@@ -12,6 +12,8 @@ Popis
 Instalace
 ---------
 
+Je potřeba mít nainstalovaný program <code>blkid</code>, který se používá pro určení jmenovky.
+
 Konfigurační soubory stačí umístit do této složky: <code>/etc/udev/rules.d/</code>
 
 a restartovat udev: <code>/etc/init.d/udev restart</code> 
